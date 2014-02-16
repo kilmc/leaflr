@@ -1,0 +1,30 @@
+{
+  "name": "garnish",
+  "homepage": "https://github.com/paulozoom/garnish",
+  "description": "Garnish for your Sassy CSS cocktails.",
+  "main": "src/garnish.scss",
+  "keywords": [
+    "sass",
+    "scss",
+    "bourbon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "0.2.0",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "1d424b0cf5bdd21200636f00744db78b9ddfb611"
+  },
+  "_source": "git://github.com/paulozoom/garnish.git",
+  "_target": "~0.2.0",
+  "_originalSource": "garnish",
+  "_direct": true
+}

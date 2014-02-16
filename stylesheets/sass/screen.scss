@@ -1,0 +1,136 @@
+// Vendor
+@import '../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+@import '../../bower_components/garnish/src/garnish';
+
+@import 'reset';
+@import 'helpers';
+
+
+/* Base
+================================ */
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  background: $c-bg;
+  color: $c-primary;
+  font-family: $f-avenir;
+}
+
+a, a:link, a:visited {
+  color: $c-primary;
+  text-decoration: none;
+}
+
+
+/* Text
+================================ */
+
+// Use the class "text" on any container specifically for textual content
+
+.text {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Main Site
+================================ */
+
+.site-wrapper {
+  margin: 4rem auto;
+  padding: 4rem;
+}
+
+// Header
+
+.site-header {
+
+}
+
+.site-logo {
+  @include font-size(2.4);
+  font-family: $f-avenir-bold;
+}
+
+// Footer
+
+.site-footer {
+
+}
+
+
+/* Content Area
+================================ */
+
+.site-content {
+
+}
+
+.dropzone {
+  width: 100%;
+  height: 100px;
+  background: darken($c-bg,5%);
+}
+
+.post-body {
+  font-size: 3rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: $c-primary;
+  height: 300px;
+  border-bottom: 1px solid darken($c-bg, 10%);
+  resize: none;
+  @include placeholder {
+    color: rgba($c-primary, 0.5);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.ie {
+  @import 'ie';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
